@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\D\\練功練功\\codex-demo\\JsonFormatter\\JsonFormatter.csproj": {}
+    "/home/vscode/projects/codex-demo/JsonFormatter/JsonFormatter.csproj": {}
   },
   "projects": {
-    "C:\\D\\練功練功\\codex-demo\\JsonFormatter\\JsonFormatter.csproj": {
+    "/home/vscode/projects/codex-demo/JsonFormatter/JsonFormatter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\D\\練功練功\\codex-demo\\JsonFormatter\\JsonFormatter.csproj",
+        "projectUniqueName": "/home/vscode/projects/codex-demo/JsonFormatter/JsonFormatter.csproj",
         "projectName": "JsonFormatter",
-        "projectPath": "C:\\D\\練功練功\\codex-demo\\JsonFormatter\\JsonFormatter.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\D\\練功練功\\codex-demo\\JsonFormatter\\obj\\",
+        "projectPath": "/home/vscode/projects/codex-demo/JsonFormatter/JsonFormatter.csproj",
+        "packagesPath": "/home/vscode/.nuget/packages/",
+        "outputPath": "/home/vscode/projects/codex-demo/JsonFormatter/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/vscode/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,13 +37,20 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.9.0, )"
@@ -81,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.413/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
